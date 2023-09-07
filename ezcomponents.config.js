@@ -1,6 +1,6 @@
 module.exports = {
   componentsDir: './output',
   package: {
-    name: '@my-org',
+    name: '@my-org/ui',
   }
 }
