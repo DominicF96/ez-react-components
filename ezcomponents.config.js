@@ -1,6 +1,6 @@
 module.exports = {
   componentsDir: './output',
   package: {
-    name: '@pinax/ui',
+    name: '@my-org/ui',
   }
 }

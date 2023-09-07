@@ -27,7 +27,7 @@ You can configure certain parameters of the EZReactComponents generator. To do s
 module.exports = {
   componentsDir: './output',
   package: {
-    name: '@my-org',
+    name: '@my-org/ui',
   }
 }
 ```
