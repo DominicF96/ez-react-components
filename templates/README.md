@@ -2,11 +2,11 @@
 
 <div style="margin: 16px 0px 8px 0px">
 <a href="https://github.com/pinax-network/ui/issues" target="_blank" rel="noreferrer">
-<img src="../../assets/readme/todo.svg" height="32" style="margin-right: 8px"/></a>
+<img src="../assets/readme/todo.svg" height="32" style="margin-right: 8px"/></a>
 <a href="https://www.w3.org/WAI/ARIA/apg/patterns/__COMPONENT__" target="_blank" rel="noreferrer">
-<img src="../../assets/readme/accessibility.svg" height="32" style="margin-right: 8px"/></a>
+<img src="../assets/readme/accessibility.svg" height="32" style="margin-right: 8px"/></a>
 <a href="https://www.figma.com/file/w5x2IqZCw3Y1BYQGKJwPb2/PINAX-Web-Platform" target="_blank" rel="noreferrer">
-<img src="../../assets/readme/figma.svg" height="32" style="margin-right: 8px"/></a>
+<img src="../assets/readme/figma.svg" height="32" style="margin-right: 8px"/></a>
 </div>
 
 `TODO` Description of the __COMPONENT__ component.
