@@ -31,7 +31,9 @@ yarn install __PACKAGE__/__COMPONENT__
 ```ts
 import __COMPONENT__ from "__PACKAGE__/__COMPONENT__";
 
-<__COMPONENT__/>
+const MyPage = React.FC<> = () => (
+  <__COMPONENT__/>
+);
 ```
 
 ### API
@@ -45,9 +47,9 @@ import __COMPONENT__ from "__PACKAGE__/__COMPONENT__";
 | `color`           | `primary`, `secondary`, `warning`,`danger`, `light` | `dark` | Color of the component. |
 | `disabled`        | boolean     | `false` | If true, the component will be disabled.                       |
 | `endContent`      | Node        |         | Content to display after the content of the component.         |
-| `endIcon`         | [Icon](../Icons/README.md) || Icon to display after the content.                       |
+| `endIcon`         | Node        |         | Icon to display after the content.                             |
 | `startContent`    | Node        |         | Content to display before the content of the component.        |
-| `startIcon`       | [Icon](../Icons/README.md) || Icon to display before the content.                      |
+| `startIcon`       | Node        |         | Icon to display before the content.                            |
 | `style`           | object      |         | Additional styles to apply to the component.                   |
 | `variant`         | `filled`, `outlined` || Variant of the component.                                      |
 

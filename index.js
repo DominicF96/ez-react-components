@@ -4,7 +4,7 @@ const colors = require('colors');
 const templates = require("./templates");
 const config = require("./ezcomponents.config");
 
-const version = "1.0.0";
+const version = "1.0.1";
 const date = new Date();
 
 const componentName = process.argv[2];
