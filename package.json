@@ -1,0 +1,33 @@
+{
+  "name": "ez-react-components",
+  "version": "1.0.0",
+  "description": "A CLI Tool to Generate Lots of React Components in Seconds.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominicF96/ez-react-components.git"
+  },
+  "keywords": [
+    "CLI",
+    "React",
+    "Component",
+    "Typescript",
+    "generator",
+    "template",
+    "SASS",
+    "Storybook",
+    "Jest"
+  ],
+  "author": "Dominic Fournier <me@dominicfournier.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DominicF96/ez-react-components/issues"
+  },
+  "homepage": "https://github.com/DominicF96/ez-react-components#readme",
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}
