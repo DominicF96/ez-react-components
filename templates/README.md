@@ -14,6 +14,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [API](#api)
+- [Accessibility](#accessibility)
 - [Styling](#styling)
 
 ## Installation
@@ -51,7 +52,11 @@ const MyPage = React.FC<> = () => (
 | `startContent`    | Node        |         | Content to display before the content of the component.        |
 | `startIcon`       | Node        |         | Icon to display before the content.                            |
 | `style`           | object      |         | Additional styles to apply to the component.                   |
-| `variant`         | `filled`, `outlined` || Variant of the component.                                      |
+| `variant`         | `filled`, `outlined` |`filled`| Variant of the component.                              |
+
+## Accessibility
+
+`TODO` Description of the accessibility features of the component.
 
 ## Styling
 
