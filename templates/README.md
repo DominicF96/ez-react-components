@@ -19,17 +19,17 @@
 ## Installation
 
 ```shell
-npm install @pinax/ui/__COMPONENT__
+npm install __PACKAGE__/__COMPONENT__
 ```
 or
 ```shell
-yarn install @pinax/ui/__COMPONENT__
+yarn install __PACKAGE__/__COMPONENT__
 ```
 
 ## Usage
 
 ```ts
-import __COMPONENT__ from "@pinax/ui/__COMPONENT__";
+import __COMPONENT__ from "__PACKAGE__/__COMPONENT__";
 
 <__COMPONENT__/>
 ```
@@ -40,7 +40,16 @@ import __COMPONENT__ from "@pinax/ui/__COMPONENT__";
 
 | Name              | Type        | Default | Description                                                    |
 | ----------------- | ----------- | ------- | -------------------------------------------------------------- |
-| `prop`            | PropType    |         | Prop of the __COMPONENT__ component.                           |
+| `children`        | Node        |         | Content wrapped by the badge                                   |
+| `className`       | string      |         | Additional class names to apply to the component.              |
+| `color`           | `primary`, `secondary`, `warning`,`danger`, `light` | `dark` | Color of the component. |
+| `disabled`        | boolean     | `false` | If true, the component will be disabled.                       |
+| `endContent`      | Node        |         | Content to display after the content of the component.         |
+| `endIcon`         | [Icon](../Icons/README.md) || Icon to display after the content.                       |
+| `startContent`    | Node        |         | Content to display before the content of the component.        |
+| `startIcon`       | [Icon](../Icons/README.md) || Icon to display before the content.                      |
+| `style`           | object      |         | Additional styles to apply to the component.                   |
+| `variant`         | `filled`, `outlined` || Variant of the component.                                      |
 
 ## Styling
 
